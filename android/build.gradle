@@ -90,5 +90,9 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+  implementation "com.facebook.react:react-android:+"
+  debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+  releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
 }
 
